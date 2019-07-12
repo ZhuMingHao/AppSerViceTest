@@ -82,7 +82,7 @@ namespace AppServiceTest
             }
         }
         private int count = 0;
-        private async void btnClick_ReadKey(object sender, RoutedEventArgs e)
+        private async void SendMesssage(object sender, RoutedEventArgs e)
         {
             count++;
             ValueSet request = new ValueSet();

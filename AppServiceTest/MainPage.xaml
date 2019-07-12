@@ -10,8 +10,16 @@
     >
 
     <StackPanel Orientation="Vertical">
-        <Button Click="btnClick_ReadKey" Content="Click" HorizontalAlignment="Center" />
-        <TextBlock Name="StatusBlock" Foreground="Green" HorizontalAlignment="Center"/>
-        <TextBlock Name="InfoBlock" HorizontalAlignment="Center"/>
+        <Button
+            HorizontalAlignment="Center"
+            Click="SendMesssage"
+            Content="Click"
+            />
+        <TextBlock
+            Name="StatusBlock"
+            HorizontalAlignment="Center"
+            Foreground="Green"
+            />
+        <TextBlock Name="InfoBlock" HorizontalAlignment="Center" />
     </StackPanel>
 </Page>
